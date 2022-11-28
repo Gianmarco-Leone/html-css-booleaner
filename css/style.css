@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+
+header {
+    height: 180px;
+    background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
+}
+
+.logo {
+    width: 300px;
+    margin: 80px 10px 20px;;
+}
+
+.title {
+    font-size: 60px;;
+}
+
+.author-info {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-info , .date-info {
+    color: #838383;
+}
+
+.author-info a {
+    color: #4AB9EA;
+    text-decoration: none;
+}
