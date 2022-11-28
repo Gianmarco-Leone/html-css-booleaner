@@ -11,11 +11,12 @@ header {
 
 .logo {
     width: 300px;
-    margin: 80px 10px 20px;;
+    margin: 80px 10px 20px;
 }
 
 .title {
-    font-size: 60px;;
+    font-size: 60px;
+    margin-left: 10px;
 }
 
 .author-info {
@@ -25,6 +26,7 @@ header {
 
 .text-info , .date-info {
     color: #838383;
+    margin-left: 10px;
 }
 
 .author-info a {
@@ -34,11 +36,18 @@ header {
 
 .image {
     margin-top: 20px;
+    margin-left: 10px;
+}
+
+.image-description {
+    margin-left: 10px;
+    font-size: 12px;
 }
 
 .text > p {
     font-size: 20px;
     margin-top: 20px;
+    margin-left: 10px;
 }
 
 .highlighted-text {
@@ -49,12 +58,16 @@ header {
     padding-left: 20px;
     font-size: 20px;
     margin-top: 30px;
+    margin-left: 10px;
 }
 
 table {
     font-size: 20px;
     margin-top: 20px;
+    margin-left: 10px;
+    text-align: left;  
 }
+
 
 table .first-row {
     background-color: #20A9E5;
@@ -65,9 +78,18 @@ table .second-row {
     background-color: #B1E5F2;
 }
 
+table .column-one {
+    width: 375px;
+}
+
+table .column-two {
+    width: 750px;
+}
+
 .advices {
-    margin-top: 20px;
-    margin-bottom: 30px;;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 40px;
 }
 
 footer span {
@@ -76,7 +98,29 @@ footer span {
     font-weight: bold;
 }
 
-footer img {
-    display: block;
-    margin: 10px 5px;
+.first-footer-image {
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
+
+.second-footer-image {
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
