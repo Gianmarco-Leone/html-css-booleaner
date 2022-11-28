@@ -44,3 +44,11 @@ header {
 .highlighted-text {
     background-color:#FFFF00;
 }
+
+.list > ul {
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
